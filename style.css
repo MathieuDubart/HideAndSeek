@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #111224;
+    user-select: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+}
+
+#pageContainer{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#gridContainer {
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    height: 125px;
+    width: 125px;
+    font-size: 20px;
+    background-color: #f6f9ff;  
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: #111224 1px solid;
+    color: #f6f9ff;
+    transition: 1s;
+}
+
+#boxIntruder {
+    height: 125px;
+    width: 125px;
+    font-size: 20px;
+    background-color: #f6f9ff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: #111224 1px solid;
+    color: #f6f9ff;
+    transition: 1s;
+}
+
+.boxFound {
+    height: 125px;
+    width: 125px;
+    font-size: 20px;
+    background-color: #f6f9ff;  
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: #111224 1px solid;
+    color: #111224;
+    transition: 1s;
+}
+
+#clickCounterDisplay {
+    color: #f6f9ff;
+    width: 500px;
+    position: absolute;
+    right: calc(30% - 250px);
+    top: 50px;
+}
+
+#reloadButton {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    top: 150px;
+    right: calc(30% - 150px);
+}
+
+#reloadButton img {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    transition: 1s;
+}
+
+#reloadButton img:hover {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    transition: 1s;
+    transform: scale(1.2);
+}
+#displayMessage {
+    position: absolute;
+    width: 500px;
+    top: 450px;
+    right: calc(30% - 250px);
+    color: #f6f9ff;
+}
